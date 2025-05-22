@@ -10,7 +10,7 @@ if weekday==0:
         all_quotes=quote_file.readlines()
         random_choice=random.choice(all_quotes)
     my_email = "shoaibmunavary@gmail.com"
-    pswd = "rxlvoarxuhrdcyue"  # App password, not your main password
+    pswd = "**********"  
 
     connection = smtplib.SMTP('smtp.gmail.com', 587, timeout=10)
     connection.starttls()
